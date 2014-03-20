@@ -1,7 +1,7 @@
 #!/bin/sh
 echo "Starting install VOS3000 System"
-IP=222.73.176.45
-FILE=vos2009.2.1.2.0.tar.gz
+IP=222.73.17.13
+FILE=vos3000.2.1.2.0.tar.gz
 VOS2009_FILE=vos2009/$FILE
 URL=http://$IP/$VOS2009_FILE
 echo $URL

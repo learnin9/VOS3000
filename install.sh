@@ -26,7 +26,7 @@ install_rpm()
 # rpm -ivh MySQL-server-community-5.0.51a-0.rhel5.i386.rpm --nodeps --force
 # rpm -ivh MySQL-client-community-5.0.51a-0.rhel5.i386.rpm --nodeps --force
         rpm -ivh perl-DBI-1.40-5.i386.rpm --nodeps --force
-        mysql -uroot -e 'create database vosdb DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;'
+        mysql -uroot -e 'create database vos3000db DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;'
 }
 tar_tomcat()
 {

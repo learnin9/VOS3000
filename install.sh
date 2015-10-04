@@ -15,6 +15,10 @@ echo "CentOS version must be 5.5"
         exit 0
 fi
 }
+yum_install()
+{
+        yum -y install xulrunner.i686 libXtst.i686
+}
 download_vos()
 {
         wget $URL
@@ -69,6 +73,7 @@ rm -rf $CRACK_LOG
 rm -rf $PWD/$FILE
 }
 check_version
+yum_install
 download_vos
 install_rpm
 tar_tomcat

@@ -17,7 +17,7 @@ fi
 }
 yum_install()
 {
-        yum -y install xulrunner.i686 libXtst.i686
+        yum -y install xulrunner.i686 libXtst.i686 glibc.i686 glibc-devel.i686
 }
 download_vos()
 {
